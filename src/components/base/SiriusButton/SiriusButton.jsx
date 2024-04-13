@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 export const SiriusButton = ({children, type, disabled, loading, onClick}) =>  {
 
     return (
-        <Button type={type} disabled={disabled} loading={loading} onClick={onClick}>
+        <Button size={'large'} type={type} disabled={disabled} loading={loading} onClick={onClick}>
             {children}
         </Button>
     )
