@@ -5,6 +5,7 @@ export const SiriusImage = ({src, width, height}) => {
 
     return (
         <Image
+            alt={"Image"}
             width={width}
             height={height}
             src={src}
