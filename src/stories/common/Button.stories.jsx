@@ -4,6 +4,8 @@ export default {
     title: 'Components/common/Button',
     component: SiriusButton,
     argTypes: { onClick: { action: "onClick" } },
+    parameters: { layout: 'centered' },
+    tags: ['autodocs'],
 }
 
 const Template = (args) => <SiriusButton {...args} />

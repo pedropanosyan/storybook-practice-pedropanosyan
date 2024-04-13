@@ -2,7 +2,9 @@ import {SiriusTitle} from "../../components/base/SiriusTitle/SiriusTitle.jsx";
 
 export default {
     title: 'Components/common/Title',
-    component: SiriusTitle
+    component: SiriusTitle,
+    parameters: { layout: 'centered' },
+    tags: ['autodocs'],
 }
 
 const Template = (args) => <SiriusTitle {...args} />;

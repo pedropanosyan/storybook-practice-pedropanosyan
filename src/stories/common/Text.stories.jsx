@@ -2,7 +2,9 @@ import {SiriusText} from "../../components/base/SiriusText/SiriusText.jsx";
 
 export default {
     title: 'Components/common/Text',
-    component: SiriusText
+    component: SiriusText,
+    parameters: { layout: 'centered' },
+    tags: ['autodocs'],
 }
 
 const Template = (args) => <SiriusText {...args} />;

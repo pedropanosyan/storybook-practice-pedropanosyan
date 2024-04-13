@@ -3,7 +3,9 @@ import monkey from '../../assets/monkey.png';
 
 export default {
     title: 'Components/common/Image',
-    component: SiriusImage
+    component: SiriusImage,
+    parameters: { layout: 'centered' },
+    tags: ['autodocs'],
 }
 
 const Template = (args) => <SiriusImage {...args} />;

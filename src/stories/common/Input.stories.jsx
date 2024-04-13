@@ -2,7 +2,9 @@ import {SiriusTextInput} from "../../components/base/SiriusTextInput/SiriusTextI
 
 export default {
     title: 'Components/common/Input',
-    component: SiriusTextInput
+    component: SiriusTextInput,
+    parameters: { layout: 'centered' },
+    tags: ['autodocs'],
 }
 
 const Template = (args) => <SiriusTextInput {...args} />;

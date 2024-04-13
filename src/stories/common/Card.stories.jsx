@@ -2,7 +2,9 @@ import {SiriusCard} from "../../components/base/SiriusCard/SiriusCard.jsx";
 
 export default {
     title: 'Components/common/Card',
-    component: SiriusCard
+    component: SiriusCard,
+    parameters: { layout: 'centered' },
+    tags: ['autodocs'],
 }
 
 const Template = (args) => <SiriusCard {...args} />;
